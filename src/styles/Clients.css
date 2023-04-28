@@ -1,0 +1,5 @@
+.clients img {
+  object-fit: contain;
+  width: 20% !important;
+  /* margin: 0 2.5%; */
+}

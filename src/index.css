@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}

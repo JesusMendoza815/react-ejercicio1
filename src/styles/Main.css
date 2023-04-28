@@ -1,0 +1,38 @@
+.hero-img {
+  width: 100vw;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 2.3rem;
+}
+
+.principal-info {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+
+  .hero-img {
+    width: 88%;
+    object-fit: contain;
+  }
+
+  .title {
+    font-size: 2.8rem !important;
+  }
+
+  .principal-info {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .title {
+    font-size: 4.7rem !important;
+  }
+
+  .principal-info {
+    width: 60%;
+  }
+}
