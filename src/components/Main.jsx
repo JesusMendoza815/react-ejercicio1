@@ -7,7 +7,7 @@ import Clients from "./Clients";
 function Main() {
   return (
     <>
-      <main className="d-md-flex flex-md-row-reverse justify-content-md-center align-items-md-center align-self-center">
+      <main className="d-md-flex flex-md-row-reverse justify-content-md-center align-items-md-center">
         <aside className="mb-4 col-md-4 offset-md-1">
           <picture className="hero-container">
             <source
@@ -26,7 +26,7 @@ function Main() {
             create team rituals, and wath productivity soar.
           </p>
 
-          <Button variant="dark" size="lg" className="mb-3">
+          <Button size="lg" className="mb-3 btn-dark">
             Learn More
           </Button>
 
