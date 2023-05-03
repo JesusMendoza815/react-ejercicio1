@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Button from "react-bootstrap/Button";
+import logo from "./public/images/logo.svg"
 import '../styles/Navbar.css'
 
 function NavigationBar() {
@@ -10,7 +11,7 @@ function NavigationBar() {
     <Navbar bg="light" expand="lg" id="navbar">
       <Container>
         <Navbar.Brand href="#home">
-          <img src="../public/images/logo.svg" alt="logo" />
+          <img src={ logo } alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
